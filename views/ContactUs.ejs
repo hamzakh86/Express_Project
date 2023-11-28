@@ -1,0 +1,76 @@
+<!-- HTML document declaration with language attribute -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set, viewport, and compatibility -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CSS from CDN and custom styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        /* Custom styles for Font Awesome icons */
+        .fab {
+            font-size: 30px;
+            margin: 0px 40px;
+        }
+        .fas {
+            font-size: 30px;
+        }
+        /* Specific style for home icon */
+        .fa-home {
+            font-size: 40px;
+        }
+        /* Responsive styles for smaller screens */
+        @media (max-width:1160px) {
+            .fab {
+                font-size: 30px;
+                margin: 0px 15px;
+            }
+        }
+    </style>
+    <!-- Page title -->
+    <title>hamzacamping.com</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar navbar-expand-lg bg-secondary navbar-dark text-white">
+        <div class="container-fluid">
+            <!-- Home link in the navigation bar with Font Awesome icon -->
+            <a href="/" class="navbar-brand"><i class="fas fa-home"></i></a>
+            <!-- Toggle button for collapsed menu on smaller screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu"><span class="navbar-toggler-icon"></span></button>
+            <!-- Collapsible menu -->
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Links to services and contact pages with Font Awesome icons -->
+                    <li class="nav-item"><a href="/services" class="nav-link"><i class="fas fa-users-cog"></i></a></li>
+                    <li class="nav-item"><a href="/contact" class="nav-link"><i class="fas fa-address-card"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Hero section with background color, text, button, and social media icons -->
+    <section id="hero" class="bg-dark text-light text-center text-md-start py-5">
+        <div class="container-fluid d-flex align-items-center">
+            <div>
+                <!-- Heading, subheading, and call-to-action button -->
+                <h1 class="display-4 lead">WELCOME TO <span class="text-info">HAMZACAMPING</span></h1>
+                <p class="py-1 lead">HAMZACAMPING Hackerspace, 1 Sahloul 4054 Sousse</p>
+                <button class="btn btn-info">hamzacamping4054.com</button><br><br><br><br><br><br>
+                <!-- Font Awesome icons for social media -->
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <!-- Image on larger screens -->
+            <div class="d-none d-sm-block img-fluid w-50">
+                <img width="490" height="490" src="https://www.svgheart.com/wp-content/uploads/2021/11/SvgHeart.Com-560.png" class="wp-post-image" alt="SvgHeart.Com" title="SvgHeart.Com" data-caption="" data-src="https://www.svgheart.com/wp-content/uploads/2021/11/SvgHeart.Com-560.png" data-large_image="https://www.svgheart.com/wp-content/uploads/2021/11/SvgHeart.Com-560.png" data-large_image_width="463" data-large_image_height="430" decoding="async" fetchpriority="high" srcset="https://www.svgheart.com/wp-content/uploads/2021/11/SvgHeart.Com-560.png 463w, https://www.svgheart.com/wp-content/uploads/2021/11/SvgHeart.Com-560-300x279.png 300w, https://www.svgheart.com/wp-content/uploads/2021/11/SvgHeart.Com-560-324x301.png 324w, https://www.svgheart.com/wp-content/uploads/2021/11/SvgHeart.Com-560-416x386.png 416w" sizes="(max-width: 463px) 100vw, 463px">
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap JavaScript bundle and Font Awesome script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/00290e20bc.js" crossorigin="anonymous"></script>
+</body>
+</html>
